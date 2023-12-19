@@ -24,9 +24,74 @@ ul {
     display: flex;
    flex-direction: column;
 
-    max-width: 70%;
+    max-width: 1200px;
     margin: auto;
 
     /*Altezza momentanea*/
-    min-height: 420px;
+    min-height: 740px;
 }
+
+.second-section {
+    display: flex;
+   flex-direction: column;
+
+    max-width: 1000px;
+    margin: auto;
+
+    /*Altezza momentanea*/
+    min-height: 950px;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+
+    /*Altezza momentanea*/
+    min-height: 800px;
+}
+
+.left-column, .column, .right-column {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.column-title {
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.team-row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid grey;
+    max-width: 100%;
+
+    /*Altezza momentanea*/
+    min-height: 200px;
+}
+
+.third-section {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+ 
+    /*Altezza momentanea*/
+    min-height: 630px;
+}
+
+.partnership {
+    display: flex;
+    margin-top: 150px;
+    border: 1px solid grey;
+}
+
+
+
+/*misura per la fine già scritta*/
+/*footer {
+    max-width: 1200px;
+    min-height: 570px;
+}*/
