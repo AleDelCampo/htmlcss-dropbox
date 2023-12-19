@@ -19,3 +19,14 @@ ul {
     list-style-type: none;
     display: flex;
 }
+
+.first-section {
+    display: flex;
+   flex-direction: column;
+
+    max-width: 70%;
+    margin: auto;
+
+    /*Altezza momentanea*/
+    min-height: 420px;
+}
