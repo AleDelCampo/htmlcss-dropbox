@@ -36,6 +36,10 @@ ul {
     margin-right: 20px;
 }
 
+a:hover {
+    border-bottom: 1px solid grey;
+}
+
 header {
     background-color: #b4d0e7;
     margin-bottom: 150px;
@@ -48,8 +52,6 @@ header {
     margin: auto;
     position: relative;
     bottom: -60px;
-    /*Altezza momentanea*/
-   
 }
 
 h1 {
@@ -95,6 +97,7 @@ h2 {
     margin-bottom: 80px;
 }
 
+
 .radio-space {
     margin-left: 50px;
 }
@@ -136,18 +139,42 @@ h2 {
 }
 
 .third-section {
-    display: flex;
+   
     max-width: 1000px;
     margin: auto;
- 
-    /*Altezza momentanea*/
-    min-height: 630px;
+    margin-top: 150px;
 }
 
 .partnership {
     display: flex;
-    margin-top: 150px;
-    border: 1px solid grey;
+}
+
+
+.partner-img {
+    width: 60%;
+    background-image: url(img/partner.png);
+    background-size: cover;
+    height: 600px;
+}
+
+.partner-text {
+    width: 40%;
+    text-align: start;
+    padding: 50px;
+}
+
+.partner-text h3 {
+    margin-bottom: 20px;
+}
+
+.partner-text p {
+    margin-bottom: 40px;
+}
+
+.partner-text input {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .fourth-section {
