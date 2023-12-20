@@ -12,6 +12,8 @@ nav {
     justify-content: space-between;
     min-height: 80px;
     align-items: center;
+    position: fixed;
+    z-index: 1;
 }
 
 input {
@@ -47,21 +49,26 @@ header {
     position: relative;
     bottom: -60px;
     /*Altezza momentanea*/
-    min-height: 740px;
+   
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 60px;
+    margin-top: 80px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 34px;
-
+    gap: 30px;
     width: 30%;
+}
+
+.fa {
+    margin-top: 40px;
+    font-size: 48px;
 }
 
 .jumbo {
@@ -72,25 +79,28 @@ h1 {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
 .second-section {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
 
     max-width: 1000px;
     margin: auto;
 
     /*Altezza momentanea*/
     min-height: 950px;
+}
+
+h2 {
+    font-size: 34px;
+    margin-bottom: 80px;
+}
+
+.radio-space {
+    margin-left: 50px;
+}
+
+.radio-box {
+    margin-bottom: 60px;
 }
 
 .column-container {
