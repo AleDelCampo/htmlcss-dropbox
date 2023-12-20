@@ -5,20 +5,32 @@
     font-family: "open sans";
 }
 
-.flex {
-    display: flex;
-}
-
 nav {
+    display: flex;
     background-color: #ffffff;
     width: 100%;
     justify-content: space-between;
-    min-height: 50px;
+    min-height: 80px;
+    align-items: center;
+}
+
+input {
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    padding: 4px 12px 4px 12px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    gap: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    background-color: #b4d0e7;
 }
 
 .first-section {
@@ -142,6 +154,7 @@ ul {
 .sixth-section {
     border: 1px solid grey;
     width: 100%;
+    background-color: #b4d0e7;
     /*Altezza momentanea*/
     min-height: 350px;  
 }
@@ -186,6 +199,7 @@ footer {
     border: 1px solid grey;
     max-width: 100%;
     min-height: 570px;
+    background-color: #4b4b4b;
 }
 
 .last-section {
