@@ -406,7 +406,6 @@ h1 {
 .faq-list {
     display: flex;
     flex-direction: column;
-    gap: 90px;
     font-size: 0.7em;
 }
 
@@ -464,5 +463,19 @@ footer hr {
     max-width: 1200px;
     min-height: 120px;
     margin: auto;
-    
+}
+
+details {
+    border-top: 1px solid #909899;
+    border-bottom: 1px solid #909899;
+    padding: 40px 0px 40px 0px;
+}
+
+summary {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+summary i {
+    margin-left: 200px;
 }
