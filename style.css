@@ -16,12 +16,12 @@ nav {
     z-index: 1;
 }
 
-input {
-    display: flex;
+input { 
     background-color: #0061ff;
     border: none;
     color: white;
     padding: 4px 12px 4px 12px;
+    text-align: center;
 }
 
 a {
