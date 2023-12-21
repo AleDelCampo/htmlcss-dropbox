@@ -37,7 +37,7 @@ nav ul {
     margin-right: 20px;
 }
 
-a:hover {
+#hover:hover {
     border-bottom: 1px solid grey;
 }
 
@@ -266,7 +266,10 @@ h1 {
 .partner-text input {
     color: black;
     background-color: white;
-    border: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 .fourth-section .operation-container .rectangles {
@@ -306,7 +309,6 @@ h1 {
 #link {
     color: #0061ff;
     text-decoration: underline;
-    
 }
 
 #subtitle {
