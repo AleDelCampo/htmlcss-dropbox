@@ -17,11 +17,11 @@ nav {
 }
 
 input {
+    display: flex;
     background-color: #0061ff;
     border: none;
     color: white;
-    padding: 8px 12px 8px 12px;
-    text-align: center;
+    padding: 4px 12px 4px 12px;
 }
 
 a {
@@ -418,10 +418,6 @@ h1 {
     font-size: 0.7em;
 }
 
-.animation {
-    display: flex;
-    gap: 220px;
-}
 
 footer {
     border: 1px solid grey;
