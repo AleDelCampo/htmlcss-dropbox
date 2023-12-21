@@ -29,7 +29,7 @@ a {
     color: black;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     gap: 40px;
@@ -407,7 +407,7 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 90px;
-    font-size: 12px;
+    font-size: 0.7em;
 }
 
 .animation {
@@ -419,23 +419,50 @@ footer {
     border: 1px solid grey;
     max-width: 100%;
     min-height: 570px;
-    background-color: #4b4b4b;
+    background-color: #000000;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul li {
+    color: white;
+    line-height: 34px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+#ul-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 .last-section {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    
     max-width: 1200px;
     min-height: 450px;
     margin: auto;
-    border: 1px solid grey;
+
+}
+
+footer hr {
+    width: 10%;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 40px;
 }
 
 .language {
-    display: flex;
+    color: #909899;
     max-width: 1200px;
     min-height: 120px;
     margin: auto;
-    border: 1px solid grey
+    
 }
