@@ -331,6 +331,13 @@ h1 {
     position: relative;
     width: 50%;
     height: 50%;
+    transition: border-width .6s ease;
+
+    border: 0px solid rgba(255, 255, 255, 0.5);
+}
+
+.square:hover {
+    border-width: 20px;
 }
 
 .fifth-section .square img {
@@ -474,8 +481,13 @@ details {
 summary {
     font-weight: bold;
     list-style-type: none;
+    font-weight: bold;
 }
 
 summary i {
     margin-left: 200px;
+}
+
+i:active{
+    transform: rotate(180deg);
 }
