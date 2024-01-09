@@ -22,6 +22,40 @@ input {
     color: white;
     padding: 4px 12px 4px 12px;
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1rem;
+}
+
+.plan-text-right input {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav input {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+
+.try input {
+    color: black;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.faq-list p {
+    margin-top: 24px;
+}
+
+.partner-text input {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 a {
@@ -32,6 +66,7 @@ a {
 nav ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
     gap: 40px;
     margin-left: 20px;
     margin-right: 20px;
